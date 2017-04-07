@@ -5,6 +5,15 @@
 
 cmake_minimum_required(VERSION 3.4.1)
 
+# sub directory
+add_subdirectory(src/main/cpp/PVRAssets)
+add_subdirectory(src/main/cpp/PVRCore)
+add_subdirectory(src/main/cpp/PVRGles)
+add_subdirectory(src/main/cpp/PVRNativeGles)
+add_subdirectory(src/main/cpp/PVRPlatformGlue)
+add_subdirectory(src/main/cpp/PVRShell)
+add_subdirectory(src/main/cpp/PVRUIRenderer)
+
 # Creates and names a library, sets it as either STATIC
 # or SHARED, and provides the relative paths to its source code.
 # You can define multiple libraries, and CMake builds them for you.

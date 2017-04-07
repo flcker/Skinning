@@ -17,7 +17,7 @@ add_library( # Sets the name of the library.
              src/main/cpp/PVRNativeGles/OGLES/TextureUtils.cpp )
 
 target_link_libraries( # Specifies the target library.
-                       pvr_egl
+                       pvr_native_gles
 
                        # Links the target library to the log library
                        pvr_egl pvr_assets pvr_core)
